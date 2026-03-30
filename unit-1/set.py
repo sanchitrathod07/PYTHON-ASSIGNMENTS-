@@ -1,15 +1,11 @@
-set1 = {1, 2, 3}
-set2 = {3, 4, 5}
+set1 = {1, 2, 3, 4}
+set2 = {3, 4, 5, 6}
 
-# Access (loop)
-for i in set1:
-    print(i)
+print("Set1:", set1)
+print("Set2:", set2)
 
-# Union
-print("Union:", set1 | set2)
+print("Union:", set1.union(set2))
 
-# Intersection
-print("Intersection:", set1 & set2)
+print("Intersection:", set1.intersection(set2))
 
-# Difference
-print("Difference:", set1 - set2)
+print("Difference (set1 - set2):", set1.difference(set2))
