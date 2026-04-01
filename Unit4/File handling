@@ -2,14 +2,17 @@ file = open("example.txt","w")
 file.write("Hello, this is the first line.\n")
 file.write("This file is created using python.\n")
 file.close()
+
 file = open("example.txt", "r")
 content = file.read()
 print("File content after writing:\n")
 print(content)
 file.close()
+
 file = open("example.txt", "a")
 file.write("\nThis line is appended later.")
 file.close()
+
 file = open("example.txt", "r")
 updated_content = file.read()
 print("\nFile content after appending:\n")
