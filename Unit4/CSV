@@ -11,7 +11,3 @@ def count_rows(csv_filename):
     except Exception as e:
         print(f"An error occurred: {e}")
 
-# Example usage
-if __name__ == "__main__":
-    filename = "your_file.csv"  # replace with your CSV file name
-    count_rows(filename)
